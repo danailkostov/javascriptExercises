@@ -17,7 +17,7 @@ function sumFibs(num) {
   let currentNum = 1;
   let tempResult = 0;
   const array = [];
-  for (let i = 0; currentNum <= num; i++) {
+  for (let i = 0; currentNum <= num; i += 1) {
     tempResult = currentNum;
     currentNum += previousNum;
     previousNum = tempResult;
