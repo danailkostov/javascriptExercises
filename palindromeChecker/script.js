@@ -19,13 +19,11 @@ function palindrome(str) {
   // select alphanumerics
   const regex = /[A-Za-z0-9]+/g;
   const workingStr = str.match(regex).join('').toLowerCase();
-  const reverseStr = str.match(regex).join('').split('').reverse()
-    .join('')
-    .toLowerCase();
+  const reverseStr = workingStr.split('').reverse().join('');
 
   return (workingStr === reverseStr);
 }
-palindrome('eye');
+palindrome('eyes');
 
 /*
 Tests:
