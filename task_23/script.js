@@ -57,4 +57,4 @@ function findEvenIndex(arr) {
   return -1;
 }
 
-console.log(findEvenIndex([20,10,-80,10,10,15,35]));
+console.log(findEvenIndex([20, 10, -80, 10, 10, 15, 35]));
