@@ -30,4 +30,3 @@ function disemvowel(str) {
     }
      return updatedArr.join('');
   }
-
